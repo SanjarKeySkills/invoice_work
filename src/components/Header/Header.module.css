@@ -1,11 +1,17 @@
 .header {
 	width: 100%;
+	z-index: 99;
 }
 
 .header_top {
 	height: 51px;
 	width: 100%;
 	background: #00486d;
+}
+
+.bottom_bg {
+	z-index: 99;
+	background: #f2f6f7;
 }
 
 .header_bot {
@@ -47,7 +53,7 @@
 
 .btn {
 	padding: 12px 24px;
-	 text-decoration: none;
+	text-decoration: none;
 	background: #00486d;
 	border-radius: 4px;
 	font-family: 'DM Sans';
