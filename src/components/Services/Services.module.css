@@ -33,6 +33,7 @@
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 3rem;
 	align-items: center	;
+	margin-bottom: 77px;
 }
 
 /* .img_item {

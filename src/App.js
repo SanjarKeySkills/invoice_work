@@ -1,6 +1,7 @@
 import './App.css';
 import About from './components/About/About';
 import Header from './components/Header/Header';
+import LinkBlock from './components/LinkBlock/LinkBlock';
 import Services from './components/Services/Services';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <About />
       <Services />
+      <LinkBlock />
     </div>
   );
 }
