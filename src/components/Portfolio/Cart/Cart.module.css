@@ -1,0 +1,32 @@
+.cart {
+	min-height: 525px;
+	background: #ffffff;
+	border: 1px solid #e4ecf0;
+	box-shadow: 0px 24px 24px rgba(0, 72, 109, 0.2);
+	border-radius: 2px;
+}
+
+.title_block {
+		padding: 60px 41px 20px	;
+}
+
+.cart_img {
+	width: 100%;
+}
+
+.list_block {
+	padding: 1.5rem;
+}
+
+.title, .list1 {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 33px;
+	color: #00486d;
+}
+
+.list1 {
+	font-size: 18px;
+}

@@ -1,0 +1,17 @@
+.cart_block {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 3rem;
+	align-items: center	;
+	margin-bottom: 77px;
+}
+
+.title {
+	padding: 61px 0 43px;
+	font-family: 'DM Serif Text';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 53px;
+	color: #00486d;
+}

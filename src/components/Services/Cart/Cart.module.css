@@ -1,10 +1,16 @@
 .cart {
 	padding: 33px 55px;
-	height: 442px;
+	min-height: 442px;
 	background: #ffffff;
 	border: 1px solid #e4ecf0;
 	box-shadow: 0px 24px 24px rgba(0, 72, 109, 0.2);
 	border-radius: 2px;
+}
+
+.icon {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
 }
 
 .title {
