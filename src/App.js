@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/About/About';
+import Consultation from './components/Consultation/Consultation';
 import Header from './components/Header/Header';
 import LinkBlock from './components/LinkBlock/LinkBlock';
 import Portfolio from './components/Portfolio/Portfolio';
@@ -13,6 +14,7 @@ function App() {
       <Services />
       <LinkBlock />
       <Portfolio />
+      <Consultation />
     </div>
   );
 }
