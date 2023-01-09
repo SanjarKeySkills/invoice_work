@@ -1,0 +1,42 @@
+.services {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	z-index: -4;
+	background: #FFFFFF;
+}
+
+.title {
+	margin: 145px 0 14px 0;
+	font-family: 'DM Serif Text';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 53px;
+	color: #00486d;
+}
+
+.desc {
+	margin-bottom: 15px;
+	max-width: 550px;
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 42px;
+	color: #00486d;
+}
+
+.cart_block {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 3rem;
+	align-items: center	;
+}
+
+/* .img_item {
+	background: url(../../assets/services/img1.svg) no-repeat;
+	width: 20px;
+	height: 20px;
+} */
