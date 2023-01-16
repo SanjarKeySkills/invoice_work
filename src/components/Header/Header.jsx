@@ -11,6 +11,11 @@ const Header = () => {
 						<div className={classes.logo_block}>
 							<p className={classes.logo}></p>
 						</div>
+						<nav className={classes.nav_mob}>
+							<span className={classes.burger_menu}></span>
+							<span className={classes.burger_menu}></span>
+							<span className={classes.burger_menu}></span>
+						</nav>
 						<nav className={classes.nav}>
 							<a className={classes.link} href=''>
 								Услуги

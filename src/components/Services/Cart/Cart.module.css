@@ -7,8 +7,33 @@
 	border-radius: 2px;
 }
 
-.icon {
-	display: inline-block;
+
+.icon1 {
+	background: url(../../../assets/services/img1.svg) center center/cover no-repeat;
+	width: 50px;
+	height: 50px;
+}
+
+.icon2 {
+	background: url(../../../assets/services/img2.svg) center center/cover no-repeat;
+	width: 50px;
+	height: 50px;
+}
+
+.icon3 {
+	background: url(../../../assets/services/img3.svg) center center/cover no-repeat;
+	width: 50px;
+	height: 50px;
+}
+
+.icon4 {
+	background: url(../../../assets/services/img4.svg) center center/cover no-repeat;
+	width: 50px;
+	height: 50px;
+}
+
+.icon5 {
+	background: url(../../../assets/services/img5.svg) center center/cover no-repeat;
 	width: 50px;
 	height: 50px;
 }
