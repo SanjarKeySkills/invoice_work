@@ -13,12 +13,12 @@ function App() {
 	return (
 		<div className='App'>
 			<Header />
-			<About />
-			{/* <Services />
-			<LinkBlock />
-			<Portfolio />
-			<Consultation />
-			<Footer /> */}
+			{/* <About /> */}
+			<Services />
+			{/* <LinkBlock /> */}
+			{/* <Portfolio /> */}
+			{/* <Consultation /> */}
+			{/* <Footer /> */}
 		</div>
 	)
 }
