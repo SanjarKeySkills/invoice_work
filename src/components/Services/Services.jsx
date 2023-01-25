@@ -3,11 +3,6 @@ import Cart from './Cart/Cart'
 import classes from './Services.module.css'
 import cartClas from './Cart/Cart.module.css'
 
-import img1 from '../../assets/services/img1.svg'
-import img2 from '../../assets/services/img2.svg'
-import img3 from '../../assets/services/img3.svg'
-import img4 from '../../assets/services/img4.svg'
-import img5 from '../../assets/services/img5.svg'
 
 
 const Services = () => {

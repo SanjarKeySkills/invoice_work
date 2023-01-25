@@ -14,10 +14,10 @@ function App() {
 		<div className='App'>
 			<Header />
 			{/* <About /> */}
-			<Services />
+			{/* <Services /> */}
 			{/* <LinkBlock /> */}
 			{/* <Portfolio /> */}
-			{/* <Consultation /> */}
+			<Consultation />
 			{/* <Footer /> */}
 		</div>
 	)
