@@ -3,7 +3,7 @@
 	display: flex;
 	justify-content: space-between;
 	background: #e4ecf0;
-	min-height: 753px;
+	min-height: 739px;
 	z-index: -3;
 }
 
@@ -86,9 +86,8 @@
 .bg {
 	position: absolute;
 	z-index: -1;
-	width: 576px;
+	width: 36%;
 	height: 753px;
-	/* left: 0%; */
 	right: 0%;
 	top: -2.2%;
 	background: #00486d;
@@ -107,3 +106,85 @@
 	opacity: 0.6;
 	margin: 0;
 }
+
+@media all and (max-width: 1261px) {
+	.bg {
+		width: 35%;
+	}
+	.block_title {
+		padding: 0 0 0 2rem;
+	}
+	.desc {
+		padding: 0 2rem;
+	}
+	.title {
+		padding: 0 2rem;
+	}
+	.btn {
+		margin: 0 2rem;
+		}
+}
+
+@media all and (max-width: 1024px) {
+	.bg {
+		width: 30%;
+	}
+	.block_title {
+		padding: 0 0 0 2rem;
+	}
+	.title {
+		font-size: 48px;
+		padding: 0 2rem;
+	}
+	.desc {
+		font-size: 20px;
+		padding: 0 2rem;
+	}
+	.btn {
+		margin: 0 2rem;
+	}
+}
+
+@media all and (max-width: 960px) {
+	.bg {
+		width: 27%;
+	}
+	.block_title {
+		padding: 0 0 0 2rem;
+	}
+	.title {
+		font-size: 42px;
+		padding: 0 2rem;
+	}
+	.desc {
+		font-size: 20px;
+		padding: 0 2rem;
+	}
+	.btn {
+		margin: 0 2rem;
+	}
+}
+
+@media all and (max-width: 754px) {
+	.about {
+		padding-bottom: 1rem;
+	}
+	.bg {
+		width: 25%;
+	}
+	.block_title {
+		padding: 0 0 0 2rem;
+	}
+	.title {
+		font-size: 42px;
+		padding: 0 2rem;
+	}
+	.desc {
+		font-size: 20px;
+		padding: 0 2rem;
+	}
+	.btn {
+		margin: 0 2rem;
+	}
+}
+
