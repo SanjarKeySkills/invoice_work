@@ -7,6 +7,7 @@ const About = () => {
 			<div className='container'>
 				<div className={classes.blocks}>
 					<div className={classes.block_title}>
+						<p className={classes.image_mobile}></p>	
 						<p className={classes.points_top}></p>
 						<h2 className={classes.title}>
 							Превосходство основанное на доверии

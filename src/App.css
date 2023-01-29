@@ -24,6 +24,13 @@ a {
 	}
 }
 
+@media all and (max-width: 720px) {
+	.container {
+		padding: 0 30px;
+	}
+}
+
+
 @media all and (max-width: 300px){
 	.container {
 		padding: 0 10px;
