@@ -6,12 +6,10 @@
 	min-height: 739px;
 	z-index: -3;
 }
-
 .blocks {
 	display: flex;
 	justify-content: space-between;
 }
-
 .block_title {
 	display: flex;
 	flex-direction: column;
@@ -19,7 +17,6 @@
 	width: 55%;
 	align-items: start;
 }
-
 .points_top {
 	position: absolute;
 	background: url(../../assets/about/points.png) no-repeat;
@@ -32,7 +29,6 @@
 	opacity: 0.6;
 	margin: 0;
 }
-
 .title {
 	font-family: 'DM Mono';
 	font-style: normal;
@@ -41,7 +37,6 @@
 	line-height: 67px;
 	color: #00486d;
 }
-
 .desc {
 	margin: 62px 0 20px 0;
 	font-family: 'DM Sans';
@@ -51,7 +46,6 @@
 	line-height: 42px;
 	color: #00486d;
 }
-
 .btn {
 	padding: 12px 24px;
 	text-decoration: none;
@@ -65,7 +59,6 @@
 	text-align: center;
 	color: #ffffff;
 }
-
 .block_bg {
 	position: relative;
 	width: 45%;
@@ -166,25 +159,30 @@
 }
 
 @media all and (max-width: 720px) {
+	.block_bg {
+		max-width: 100%;
+		}
 	.about {
 		padding-bottom: 1rem;
 	}
 	.blocks {
-		display: block;
-		/* justify-content: space-between; */
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.points_bot {
+		display: none;
 	}
 	.points_top {
 		display: none;
 	}
-
 	.image {
-		position: absolute;
-		width: 100%;
-		height: 200px;
+		width: 100%;	
 	}
-
-
-
+	.block_bg {
+		position: relative;
+		width: 100%;
+		padding: 0;
+	}
 	.bg {
 		display: none;
 	}
